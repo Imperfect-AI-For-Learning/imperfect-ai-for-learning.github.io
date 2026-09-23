@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imperfect AI as New Learning Opportunities — ACM CHI 2027 Workshop</title>
+  <meta name="description"
+    content="ACM CHI 2027 Workshop exploring how AI fallibility, hallucinations, and unexpected responses can become productive intellectual resources for human learning and critical AI literacy." />
+  <meta property="og:title" content="Imperfect AI as New Learning Opportunities — CHI 2027 Workshop" />
+  <meta property="og:description"
+    content="Instead of designing AI that never gets things wrong, how might we design interactions in which being wrong helps humans learn?" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/banner.jpg" />
+
+  <!-- Prevent search engine indexing during proposal review -->
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive" />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="assets/js/site.js" defer></script>
+</head>
+
+<body>
+  <!-- Accessibility Skip Link -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a class="brand" href="#home" aria-label="Imperfect AI CHI 2027 Workshop Home">
+          <div class="brand-icon" aria-hidden="true">IAI</div>
+          <div class="brand-text">
+            <span class="brand-title">Imperfect AI as Learning</span>
+            <span class="brand-subtitle">ACM CHI 2027 Workshop</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#overview">Overview</a></li>
+            <li><a class="nav-link" href="#cfp">CFP / Submit</a></li>
+            <li><a class="nav-link" href="#program">Program</a></li>
+            <li><a class="nav-link" href="#organizers">Organizers</a></li>
+            <li><a class="nav-link" href="#accessibility">Accessibility</a></li>
+          </ul>
+          <a class="nav-cta" href="#cfp">
+            Submit
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </nav>
+
+        <!-- Mobile Drawer Toggle Button -->
+        <button class="mobile-toggle" id="menuBtn" type="button" aria-label="Toggle navigation menu"
+          aria-controls="mobileDrawer" aria-expanded="false">
+          Menu
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="drawer-content">
+      <ul>
+        <li><a class="mobile-drawer-link" href="#home">Home</a></li>
+        <li><a class="mobile-drawer-link" href="#overview">Overview</a></li>
+        <li><a class="mobile-drawer-link" href="#cfp">CFP / Submission</a></li>
+        <li><a class="mobile-drawer-link" href="#program">Program &amp; Schedule</a></li>
+        <li><a class="mobile-drawer-link" href="#organizers">Organizers</a></li>
+        <li><a class="mobile-drawer-link" href="#accessibility">Accessibility</a></li>
+        <li><a class="mobile-drawer-link" href="#references">References &amp; Citation</a></li>
+        <li style="margin-top: 10px;">
+          <a class="btn btn-primary" style="width: 100%; text-align: center;" href="#cfp">Submit Position Paper</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text-col">
+            <div class="hero-badge-group">
+              <span class="badge badge-blue">ACM CHI 2027 Workshop</span>
+              <span class="badge badge-pink">In-Person &bull; 3 Hours</span>
+              <span class="badge badge-yellow">Spring 2027</span>
+            </div>
+
+            <h1 class="hero-title">
+              Imperfect AI as <span class="title-accent">New Learning Opportunities</span>
+            </h1>
+
+            <p class="hero-tagline">
+              What if AI’s imperfections could become unique opportunities for human learning? Exploring how errors,
+              hallucinations, and cognitive conflict can be harnessed as productive pedagogical resources.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#cfp">
+                Call for Papers
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a class="btn btn-blue" href="#program">
+                Workshop Program
+              </a>
+              <a class="btn btn-subtle" href="#overview">
+                Read Overview &darr;
+              </a>
+            </div>
+
+            <!-- Key Metrics -->
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <span class="metric-val">3 Hours</span>
+                <span class="metric-lbl">Two 90-min interactive sessions</span>
+              </div>
+              <div class="metric-card">
+                <span class="metric-val">20–25</span>
+                <span class="metric-lbl">Interdisciplinary participants</span>
+              </div>
+              <div class="metric-card">
+                <span class="metric-val">4 Activities</span>
+                <span class="metric-lbl">Gallery, cases, co-design &amp; agenda</span>
+              </div>
+              <div class="metric-card">
+                <span class="metric-val">2–4 Pages</span>
+                <span class="metric-lbl">CHI Extended Abstract format</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image & Card -->
+          <div class="hero-image-wrapper">
+            <div class="hero-image-card">
+              <img src="assets/images/banner.jpg"
+                alt="Conceptual artwork depicting collaborative human sensemaking, cognitive reflection, and learning from imperfect AI systems"
+                width="800" height="450" />
+              <div class="hero-image-caption">
+                <span><strong>Theme:</strong> AI Fallibility as a Pedagogical Resource</span>
+                <span>CHI 2027</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Key Dates Card Grid -->
+        <div style="margin-top: 56px;">
+          <h3 style="margin-bottom: 4px;">Important Dates</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">All deadlines are 23:59 Anywhere on Earth (AoE).</p>
+          <div class="dates-grid">
+            <div class="date-card highlight">
+              <span class="date-badge badge-pending">Submission Deadline</span>
+              <div class="date-title">Position Papers Due</div>
+              <div class="date-value">February 11, 2027</div>
+              <div class="date-sub">2–4 pages (excluding references) via Online Form</div>
+            </div>
+            <div class="date-card">
+              <span class="date-badge badge-active">Decision</span>
+              <div class="date-title">Notification of Acceptance</div>
+              <div class="date-value">March 12, 2027</div>
+              <div class="date-sub">Lightweight, constructive review feedback</div>
+            </div>
+            <div class="date-card">
+              <span class="date-badge badge-warning">Publication</span>
+              <div class="date-title">Camera-Ready Version</div>
+              <div class="date-value">April 02, 2027</div>
+              <div class="date-sub">Archived on workshop website repository</div>
+            </div>
+            <div class="date-card">
+              <span class="date-badge badge-active">Event</span>
+              <div class="date-title">CHI 2027 Workshop Day</div>
+              <div class="date-value">April 2027 (TBA)</div>
+              <div class="date-sub">In-person session at ACM CHI 2027</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OVERVIEW & THEMES SECTION -->
+    <section class="section section-alt" id="overview">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-pink">Motivation &amp; Goals</span>
+          <h2>Workshop Overview</h2>
+          <p class="section-lead">
+            Generative AI introduces a transformative paradigm for everyday learning, work, and sensemaking. Yet instead
+            of viewing imperfections solely as obstacles to eliminate, we examine how AI errors can provoke productive
+            inquiry.
+          </p>
+        </div>
+
+        <!-- Central Quote Card -->
+        <div class="card-quote">
+          <p>
+            "Instead of designing AI that never gets things wrong, how might we design interactions in which being wrong
+            — at the right moment, in the right way — helps humans learn?"
+          </p>
+          <cite>&mdash; Workshop Central Organizing Question</cite>
+        </div>
+
+        <!-- Conceptual Foundations Grid -->
+        <div class="card-grid-2" style="margin-bottom: 32px;">
+          <div class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+            </div>
+            <h3>The Conventional Paradigm vs. The New Possibility</h3>
+            <p>
+              Generative AI systems produce unpredictable errors: factual hallucinations, subtle biases, inconsistent
+              reasoning, contextual misunderstandings, and unwarranted confidence. Conventionally, Human-AI Interaction
+              research has focused on eliminating errors to make systems trustworthy, predictable, and accurately relied
+              upon.
+            </p>
+            <p>
+              However, learning science research shows that error-free learning is often pedagogically sterile.
+              Erroneous worked examples, productive failure, and negative knowledge development demonstrate that
+              encountering errors stimulates cognitive conflict, self-explanation, and deeper metacognitive awareness.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-pink" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m4.93 4.93 4.24 4.24M14.83 9.17l4.24-4.24M14.83 14.83l4.24 4.24M9.17 14.83l-4.24 4.24" />
+              </svg>
+            </div>
+            <h3>From Learning 'Despite' AI to Learning 'Through' AI</h3>
+            <p>
+              Generative AI is not merely a static textbook. It can dynamically generate productive ambiguity,
+              alternative explanations, and flawed reasoning on demand. Frameworks like <em>AI fallibility-as-resource
+                (AiFAR)</em> and the <em>pedagogy of AI mistakes</em> shift our focus from tolerating AI flaws to
+              purposefully scaffolding critical evaluation.
+            </p>
+            <p>
+              Crucially, imperfect AI is not inherently productive. Unscaffolded errors cause misconceptions,
+              overreliance, or frustration. This workshop gathers researchers to establish when and how AI imperfections
+              stimulate positive learning outcomes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Four Core Goals -->
+        <h3 style="margin-top: 40px; margin-bottom: 20px;">Four Core Workshop Goals</h3>
+        <div class="card-grid-4">
+          <div class="card goal-card">
+            <span class="goal-number">1</span>
+            <h4>Characterize Design Space</h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">
+              Identify different forms of AI imperfections (hallucination, biased reasoning, logic bugs, overconfidence)
+              and the specific learning contexts where they become pedagogically relevant.
+            </p>
+          </div>
+
+          <div class="card goal-card">
+            <span class="goal-number">2</span>
+            <h4>Cognitive Mechanisms</h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">
+              Unpack cognitive and pedagogical mechanisms (comparison, contrast, cognitive dissonance, curiosity,
+              self-explanation) that distinguish productive learning from confusing friction.
+            </p>
+          </div>
+
+          <div class="card goal-card">
+            <span class="goal-number">3</span>
+            <h4>Scaffolded Interactions</h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">
+              Co-design interactive systems and pedagogical scaffolds that prompt learners to notice, interrogate,
+              verify, and reflect upon flawed AI outputs without falling prey to misinformation.
+            </p>
+          </div>
+
+          <div class="card goal-card">
+            <span class="goal-number">4</span>
+            <h4>Future-Resilient Principles</h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">
+              Formulate learning design principles that withstand rapid advances in model capabilities, accounting for
+              both transient limitations and persistent structural human-data biases.
+            </p>
+          </div>
+        </div>
+
+        <!-- Interactive Case Explorer (Imperfect AI Gallery Cases from Proposal) -->
+        <div class="gallery-section">
+          <div
+            style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px; margin-bottom: 20px;">
+            <div>
+              <h3>Empirical Cases: AI Imperfections in Action</h3>
+              <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0;">
+                Evidence from recent studies cited in our proposal showing how AI flaws stimulated critical thinking:
+              </p>
+            </div>
+            <!-- Category Filter Buttons -->
+            <div class="filter-nav" role="tablist" aria-label="Filter cases by domain">
+              <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Domains</button>
+              <button class="filter-btn" data-filter="cs" role="tab" aria-selected="false">Computer Science</button>
+              <button class="filter-btn" data-filter="biology" role="tab" aria-selected="false">Biology &amp;
+                Sci</button>
+              <button class="filter-btn" data-filter="business" role="tab" aria-selected="false">Business
+                Sensemaking</button>
+              <button class="filter-btn" data-filter="teaching" role="tab" aria-selected="false">Teacher
+                Education</button>
+              <button class="filter-btn" data-filter="k12" role="tab" aria-selected="false">Critical AI
+                Literacy</button>
+            </div>
+          </div>
+
+          <div class="card-grid-3" id="casesGrid">
+            <!-- Case 1: CS Pair Programmer -->
+            <div class="case-card" data-category="cs">
+              <span class="case-category">Computer Science</span>
+              <div class="case-title">Flawed AI Pair Programmer</div>
+              <div class="case-body">
+                An imperfect AI partner deliberately injected subtle bugs and incomplete logic during coding exercises.
+                Computer science students actively debugged and refined the code, triggering significantly elevated
+                metacognitive monitoring and deeper code comprehension.
+              </div>
+              <div class="case-meta">
+                <span class="case-mechanism">Debugging &amp; Metacognition</span>
+                <span>Balakrishnan et al., 2026</span>
+              </div>
+            </div>
+
+            <!-- Case 2: Biology Citation Verification -->
+            <div class="case-card" data-category="biology">
+              <span class="case-category">Biology &amp; Sci</span>
+              <div class="case-title">Fabricated Citations in Biology</div>
+              <div class="case-body">
+                Undergraduate biology students were tasked with fact-checking and verifying hallucinated scientific
+                citations generated by LLMs. Engaging with fabricated sources prompted rigorous source evaluation and
+                marked gains in scientific information literacy.
+              </div>
+              <div class="case-meta">
+                <span class="case-mechanism">Source Evaluation</span>
+                <span>Shah &amp; Miranda, 2026</span>
+              </div>
+            </div>
+
+            <!-- Case 3: Business Sensemaking -->
+            <div class="case-card" data-category="business">
+              <span class="case-category">Business Sensemaking</span>
+              <div class="case-title">Hallucinated Organizational Models</div>
+              <div class="case-body">
+                Business undergraduates evaluated an organizational case containing subtle hallucinations and
+                contradictions. Students engaged in deeper model-based reasoning and evaluative transfer than peers who
+                received a pristine, flawless model.
+              </div>
+              <div class="case-meta">
+                <span class="case-mechanism">Evaluative Transfer</span>
+                <span>Sinha, 2026</span>
+              </div>
+            </div>
+
+            <!-- Case 4: Pre-service Teachers -->
+            <div class="case-card" data-category="teaching">
+              <span class="case-category">Teacher Education</span>
+              <div class="case-title">Biased Chatbot as Discussion Catalyst</div>
+              <div class="case-body">
+                Confronting an AI chatbot expressing biased pedagogical assumptions prior to peer collaboration pushed
+                pre-service teachers to defend their own educational beliefs, leading to richer, more criteria-driven
+                arguments during human-to-human discussion.
+              </div>
+              <div class="case-meta">
+                <span class="case-mechanism">Cognitive Conflict</span>
+                <span>Sinha &amp; Rajaram, 2026</span>
+              </div>
+            </div>
+
+            <!-- Case 5: K-12 AI Literacy -->
+            <div class="case-card" data-category="k12">
+              <span class="case-category">Critical AI Literacy</span>
+              <div class="case-title">Overtrust Interrogation in Middle School</div>
+              <div class="case-body">
+                Middle-school girls critically examined GenAI outputs, discovering misinformation and stereotypes.
+                Collaborative small-group interrogation helped students actively calibrate their trust and build
+                foundational critical AI literacy competencies.
+              </div>
+              <div class="case-meta">
+                <span class="case-mechanism">Trust Calibration</span>
+                <span>Solyst et al., 2024</span>
+              </div>
+            </div>
+
+            <!-- Case 6: AI Fallibility-as-Resource Framework -->
+            <div class="case-card" data-category="cs">
+              <span class="case-category">Theoretical Framework</span>
+              <div class="case-title">AiFAR &amp; Productive Ambiguity</div>
+              <div class="case-body">
+                The AI fallibility-as-resource (AiFAR) framework positions AI as an unconventional generator of
+                productive ambiguity in dialogic learning, prompting learners to negotiate meanings, resolve dissonance,
+                and take cognitive ownership of concepts.
+              </div>
+              <div class="case-meta">
+                <span class="case-mechanism">Productive Ambiguity</span>
+                <span>Sinha, 2026; Hosseini, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL FOR PARTICIPATION (CFP) / SUBMISSION -->
+    <section class="section" id="cfp">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-yellow">Call for Participation</span>
+          <h2>Submissions &amp; Participation</h2>
+          <p class="section-lead">
+            We welcome researchers, educators, interaction designers, and practitioners from Human-AI Interaction,
+            Learning Sciences, AI in Education, AI Literacy, and Responsible AI.
+          </p>
+        </div>
+
+        <div class="cfp-box">
+          <div class="card-grid-2">
+            <div>
+              <h3 style="margin-bottom: 14px;">Who Should Join?</h3>
+              <p>
+                We invite contributions envisioning the role of AI imperfections in learning and sensemaking across
+                broad interdisciplinary areas:
+              </p>
+              <ul class="checklist">
+                <li class="checklist-item">
+                  <div class="checklist-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg></div>
+                  <span><strong>Human-AI Interaction (HCI):</strong> Novel interactive scaffolds, trust calibration
+                    interfaces, and feedback designs.</span>
+                </li>
+                <li class="checklist-item">
+                  <div class="checklist-icon pink" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg></div>
+                  <span><strong>Learning Sciences &amp; AIED:</strong> Cognitive mechanisms of productive failure,
+                    negative knowledge, and dialogic learning.</span>
+                </li>
+                <li class="checklist-item">
+                  <div class="checklist-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg></div>
+                  <span><strong>Critical AI Literacy:</strong> Empowering diverse learners to recognize bias,
+                    hallucination, and limitations in AI systems.</span>
+                </li>
+                <li class="checklist-item">
+                  <div class="checklist-icon pink" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg></div>
+                  <span><strong>Explainable &amp; Responsible AI:</strong> Uncertainty communication, fallibility
+                    disclosure, and ethical boundary conditions.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              style="background: var(--bg-secondary); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border);">
+              <h3 style="margin-bottom: 14px;">Submission Requirements</h3>
+              <p style="font-size: 0.95rem; color: var(--text-muted);">
+                Participants are invited to submit a <strong>2–4 pages position paper</strong> (excluding references)
+                using the <strong>CHI Extended Abstract format</strong> or ACM Master Article Template.
+              </p>
+
+              <div style="margin-top: 14px;">
+                <h4 style="font-size: 0.98rem; margin-bottom: 6px;">Your submission must include:</h4>
+                <ol style="padding-left: 20px; font-size: 0.92rem; color: var(--text-muted); margin: 0 0 16px;">
+                  <li style="margin-bottom: 6px;">
+                    <strong>Research / Position Narrative:</strong> Description of completed or ongoing work,
+                    distinctive conceptual perspective, or open research direction addressing how imperfect AI supports
+                    or hinders learning.
+                  </li>
+                  <li>
+                    <strong>One Concrete Imperfect AI Example:</strong> An artifact, prompt-response pair, or observed
+                    interaction drawn from classroom, research, design, or everyday experience for the <em>Imperfect AI
+                      Gallery</em>.
+                  </li>
+                </ol>
+              </div>
+
+              <div style="border-top: 1px solid var(--border); padding-top: 16px;">
+                <p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 12px;">
+                  * At least one author of each accepted submission must register and attend the workshop in person.
+                  Capacity is planned for 20–25 registered participants.
+                </p>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                  <a class="btn btn-primary" href="https://forms.gle/" target="_blank" rel="noopener noreferrer"
+                    style="font-size: 0.9rem; padding: 10px 18px;">
+                    Submit Online via Form
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                    </svg>
+                  </a>
+                  <a class="btn btn-secondary" href="https://www.acm.org/publications/proceedings-template"
+                    target="_blank" rel="noopener noreferrer" style="font-size: 0.9rem; padding: 10px 18px;">
+                    ACM Templates
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post-Workshop Publishing Plans -->
+          <div
+            style="margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+            <div>
+              <h4>Publication &amp; Dissemination</h4>
+              <p style="font-size: 0.92rem; color: var(--text-muted);">
+                With authors' permission, accepted position papers will be published open-access on this workshop
+                website repository prior to CHI 2027 to spark discussion.
+              </p>
+            </div>
+            <div>
+              <h4>Collaborative Synthesis Paper</h4>
+              <p style="font-size: 0.92rem; color: var(--text-muted);">
+                Following the workshop, participants will be invited to contribute to an interdisciplinary synthesis /
+                perspective paper framing the future research agenda for imperfect AI in learning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM & ACTIVITIES -->
+    <section class="section section-alt" id="program">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-pink">Schedule &amp; Format</span>
+          <h2>Workshop Program</h2>
+          <p class="section-lead">
+            A three-hour highly interactive, co-design focused format structured across two 90-minute sessions with
+            provocation talks, small-group analysis, gallery walks, and collaborative synthesis.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Session 1 -->
+          <div class="session-header-card">
+            <div>
+              <h3>Session #1: Foundations &amp; The Imperfect AI Gallery</h3>
+              <p style="margin: 4px 0 0; opacity: 0.9; font-size: 0.9rem;">From identifying AI fallibility to examining
+                learner cognitive responses</p>
+            </div>
+            <span class="session-badge">Part 1 &bull; 90 min</span>
+          </div>
+
+          <div class="schedule-list">
+            <!-- Item 1 -->
+            <div class="schedule-row">
+              <div class="time-slot">00:00 &ndash; 00:30<br /><small
+                  style="color: var(--text-dim); font-weight: normal;">30 mins</small></div>
+              <div class="activity-content">
+                <h4>Welcome &amp; Invited Opening Talk</h4>
+                <div class="activity-desc">
+                  Welcome from organizers followed by an invited talk from an expert in the Learning Sciences / AIED
+                  addressing when and under what conditions encountering errors, discrepancies, or difficulties promotes
+                  deeper learning.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="schedule-row">
+              <div class="time-slot">00:30 &ndash; 00:50<br /><small
+                  style="color: var(--text-dim); font-weight: normal;">20 mins</small></div>
+              <div class="activity-content">
+                <h4>Participant Lightning Talks</h4>
+                <div class="activity-desc">
+                  Rapid-fire 90-second presentations where participants introduce their distinctive disciplinary
+                  perspectives through a concrete example of an imperfect AI response (incomplete, inconsistent,
+                  misleading, or unexpected).
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="schedule-row">
+              <div class="time-slot">00:50 &ndash; 01:20<br /><small
+                  style="color: var(--text-dim); font-weight: normal;">30 mins</small></div>
+              <div class="activity-content">
+                <h4>Activity 1: Imperfect AI Gallery</h4>
+                <div class="activity-desc">
+                  Participants circulate in small groups through curated case boards displayed across the room,
+                  analyzing real-world flawed AI interactions guided by three key questions:
+                </div>
+                <ul class="activity-bullets">
+                  <li><strong>What is imperfect</strong> about the AI response or interaction?</li>
+                  <li><strong>What might a learner notice</strong>, question, or do in response?</li>
+                  <li><strong>What, if anything, could be learned</strong> through engaging with this imperfection?</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Break -->
+            <div class="schedule-row break">
+              <div class="time-slot" style="color: var(--yellow-moon);">01:20 &ndash; 01:30<br /><small
+                  style="font-weight: normal;">10 mins</small></div>
+              <div class="activity-content">
+                <h4>Break &amp; Informal Discussion</h4>
+                <div class="activity-desc">
+                  Networking and informal continuation of conversations around the Imperfect AI Gallery exhibits.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Session 2 -->
+          <div class="session-header-card"
+            style="background: linear-gradient(135deg, #c026d3 0%, #e15371 60%, #f4b031 100%);">
+            <div>
+              <h3>Session #2: Mechanisms, Co-Design &amp; Research Agenda</h3>
+              <p style="margin: 4px 0 0; opacity: 0.9; font-size: 0.9rem;">Translating insights into interactive systems
+                and a sustainable research agenda</p>
+            </div>
+            <span class="session-badge">Part 2 &bull; 90 min</span>
+          </div>
+
+          <div class="schedule-list">
+            <!-- Item 4 -->
+            <div class="schedule-row">
+              <div class="time-slot">01:30 &ndash; 02:00<br /><small
+                  style="color: var(--text-dim); font-weight: normal;">30 mins</small></div>
+              <div class="activity-content">
+                <h4>Activity 2: From Imperfection to Learning Opportunity</h4>
+                <div class="activity-desc">
+                  Deep-dive small group analysis mapping cases through three lenses: (1) learner behavioral reactions;
+                  (2) activated cognitive mechanisms (comparison, cognitive conflict, curiosity); and (3) learning
+                  outcomes. Groups also establish critical boundary conditions when errors become harmful
+                  misinformation.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="schedule-row">
+              <div class="time-slot">02:00 &ndash; 02:30<br /><small
+                  style="color: var(--text-dim); font-weight: normal;">30 mins</small></div>
+              <div class="activity-content">
+                <h4>Activity 3: Designing for Productive Imperfection</h4>
+                <div class="activity-desc">
+                  Hands-on interactive co-design in interdisciplinary teams. Groups design a prototype interaction or
+                  pedagogical workflow that scaffolds learners in productively interrogating AI fallibility while
+                  actively mitigating overreliance.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="schedule-row">
+              <div class="time-slot">02:30 &ndash; 02:55<br /><small
+                  style="color: var(--text-dim); font-weight: normal;">25 mins</small></div>
+              <div class="activity-content">
+                <h4>Activity 4: Building a Sustainable Research Agenda</h4>
+                <div class="activity-desc">
+                  Collective synthesis: each group formulates pressing open questions and future-resilient design
+                  principles that account for both current AI limitations and next-generation model capabilities.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="schedule-row">
+              <div class="time-slot">02:55 &ndash; 03:00<br /><small
+                  style="color: var(--text-dim); font-weight: normal;">5 mins</small></div>
+              <div class="activity-content">
+                <h4>Closing Remarks &amp; Community Next Steps</h4>
+                <div class="activity-desc">
+                  Wrap-up of findings, archiving workshop artifacts, and organizing co-authorship for the post-workshop
+                  collaborative synthesis article.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORGANIZERS SECTION -->
+    <section class="section" id="organizers">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Co-Organizers</span>
+          <h2>Organizing Team</h2>
+          <p class="section-lead">
+            The organizing team brings together interdisciplinary leadership across Human-AI Interaction, the Learning
+            Sciences, AI in Education, and Computer Science Education.
+          </p>
+        </div>
+
+        <div class="organizers-grid">
+          <!-- Organizer 1: Tanmay Sinha -->
+          <div class="organizer-card">
+            <div class="organizer-avatar">TS</div>
+            <div class="organizer-name">Tanmay Sinha</div>
+            <div class="organizer-affil">National Institute of Education, Nanyang Technological University, Singapore
+            </div>
+            <div class="organizer-bio">
+              Researcher in Learning Sciences and AIED. Developer of the AI fallibility-as-resource (AiFAR) framework.
+              Served as track chair for interactive tools and demos at ISLS 2026, scientific co-chair for AIFE 2026, and
+              PC member for ISLS, IDC, ECTEL, CSCW, ACII, IUI, and ICMI.
+            </div>
+            <a class="organizer-email" href="mailto:tanmay.sinha@nie.edu.sg">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              tanmay.sinha@nie.edu.sg
+            </a>
+          </div>
+
+          <!-- Organizer 2: Zhen Bai -->
+          <div class="organizer-card">
+            <div class="organizer-avatar">ZB</div>
+            <div class="organizer-name">Zhen Bai</div>
+            <div class="organizer-affil">University of Rochester, USA</div>
+            <div class="organizer-bio">
+              Associate Professor of Computer Science at the University of Rochester. Specializes in Human-AI
+              Interaction, embodied learning environments, collaborative AI partners, and educational technologies that
+              foster creativity and computational thinking.
+            </div>
+            <a class="organizer-email" href="mailto:zhen.bai@rochester.edu">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              zhen.bai@rochester.edu
+            </a>
+          </div>
+
+          <!-- Organizer 3: Carolyn Rosé -->
+          <div class="organizer-card">
+            <div class="organizer-avatar">CR</div>
+            <div class="organizer-name">Carolyn Rosé</div>
+            <div class="organizer-affil">Carnegie Mellon University, USA</div>
+            <div class="organizer-bio">
+              Professor of Language Technologies and Human-Computer Interaction in the School of Computer Science at
+              CMU. Internationally recognized pioneer in Computer-Supported Collaborative Learning (CSCL), dialogic
+              learning, and human-AI conversational dynamics.
+            </div>
+            <a class="organizer-email" href="mailto:cp3a@andrew.cmu.edu">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              cp3a@andrew.cmu.edu
+            </a>
+          </div>
+
+          <!-- Organizer 4: Hadi Hosseini -->
+          <div class="organizer-card">
+            <div class="organizer-avatar">HH</div>
+            <div class="organizer-name">Hadi Hosseini</div>
+            <div class="organizer-affil">Pennsylvania State University, USA</div>
+            <div class="organizer-bio">
+              Associate Professor in the College of Information Sciences and Technology at Penn State. Investigates
+              multi-agent systems, decision making, and the pedagogy of AI mistakes for fostering higher-order thinking
+              and critical reflection in learners.
+            </div>
+            <a class="organizer-email" href="mailto:hadi@psu.edu">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              hadi@psu.edu
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCESSIBILITY SECTION -->
+    <section class="section section-alt" id="accessibility">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-yellow">Inclusivity &amp; Access</span>
+          <h2>Accessibility &amp; Inclusivity Commitment</h2>
+          <p class="section-lead">
+            We are committed to creating an accessible, inclusive, and welcoming workshop environment for all attendees,
+            following ACM SIGCHI accessibility guidelines.
+          </p>
+        </div>
+
+        <div class="a11y-grid">
+          <div class="a11y-card">
+            <h4>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--blue-rock)" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+              Physical Venue Accommodations
+            </h4>
+            <p>
+              The workshop room will feature step-free access, wheelchair accessible seating arrangements, wide aisles
+              between group tables, ergonomic seating options, and close proximity to accessible and gender-neutral
+              restrooms. A designated quiet sensory decompression area is available on-site.
+            </p>
+          </div>
+
+          <div class="a11y-card">
+            <h4>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--pink-pack)" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+              Digital Formats &amp; Captioning
+            </h4>
+            <p>
+              Presentation decks, activity handouts, and gallery boards will be distributed in advance in accessible
+              digital formats (screen-reader friendly PDFs and HTML). Live speech-to-text transcription / CART or
+              automated real-time captions will be available throughout the sessions.
+            </p>
+          </div>
+
+          <div class="a11y-card">
+            <h4>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--yellow-moon)" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+              Offline &amp; Asynchronous Access
+            </h4>
+            <p>
+              To support attendees across varied time zones or those unable to attend every portion, all workshop
+              artifacts, co-design Miro boards, synthesized questions, and summaries will be hosted asynchronously on
+              our website repository following the workshop.
+            </p>
+          </div>
+        </div>
+
+        <div
+          style="margin-top: 24px; background: #ffffff; border: 1px solid var(--border); border-radius: var(--radius-md); padding: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+          <div>
+            <h4 style="margin: 0 0 4px;">Need Specific Accommodations?</h4>
+            <p style="margin: 0; font-size: 0.92rem; color: var(--text-muted);">
+              Please contact our organizing team as early as possible so we can coordinate support with the CHI
+              Accessibility Chairs.
+            </p>
+          </div>
+          <a class="btn btn-secondary"
+            href="mailto:tanmay.sinha@nie.edu.sg?subject=CHI%202027%20Workshop%20Accessibility%20Request">
+            Contact Accessibility Team
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENCES & CITATION SECTION -->
+    <section class="section" id="references">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Scholarly Foundations</span>
+          <h2>References &amp; Citation</h2>
+          <p class="section-lead">
+            Grounding our workshop inquiry in empirical research across HCI, the Learning Sciences, and Artificial
+            Intelligence.
+          </p>
+        </div>
+
+        <div class="ref-box">
+          <ol>
+            <li><strong>Adejumo, A. A., Oyelere, S. S., Sanusi, I. T., &amp; Suhonen, J. (2026).</strong> A systematic
+              review of the impact of GenAI on learning performance, AI hallucinations, and problem-solving in computer
+              science education. <em>Computers and Education: Artificial Intelligence</em>, 100570.</li>
+            <li><strong>Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B., Collisson, P., Suh, J., Iqbal,
+                S., Bennett, P. N., Inkpen, K., et al. (2019).</strong> Guidelines for human-AI interaction. In
+              <em>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</em>, 1–13.</li>
+            <li><strong>Balakrishnan, V., Kway, L. K., Sandeep, A. H., Wong, E. F. J. T., Ann, O. C., &amp; Fernando, O.
+                N. N. (2026).</strong> Beyond the Perfect Assistant: Provoking Learning with Flawed AI Partners. In
+              <em>Companion Publication of the 2026 ACM DIS Conference</em>, 270–274.</li>
+            <li><strong>Dieterich, S., Rumann, S., &amp; Rodemer, M. (2025).</strong> Conditions for effective learning
+              from erroneous examples: A systematic review. <em>Educational Psychology Review</em>, 37(4), 94.</li>
+            <li><strong>Hosseini, H. (2026).</strong> The Pedagogy of AI Mistakes: Fostering Higher-Order Thinking. In
+              <em>International Conference on Artificial Intelligence in Education (AIED)</em>, Springer, 209–215.</li>
+            <li><strong>Kapur, M., &amp; Bielaczyc, K. (2012).</strong> Designing for productive failure. <em>Journal of
+                the Learning Sciences</em>, 21(1), 45–83.</li>
+            <li><strong>Long, D., &amp; Magerko, B. (2020).</strong> What is AI literacy? Competencies and design
+              considerations. In <em>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</em>,
+              1–16.</li>
+            <li><strong>Metcalfe, J. (2017).</strong> Learning from errors. <em>Annual Review of Psychology</em>, 68,
+              465–489.</li>
+            <li><strong>Sajadieh, S., et al. (2026).</strong> The AI Index 2026 Annual Report. Stanford Institute for
+              Human-Centered Artificial Intelligence (HAI).</li>
+            <li><strong>Shah, R., &amp; Miranda, J. J. L. (2026).</strong> Leveraging generative artificial intelligence
+              errors to teach appropriate citation usage. <em>Journal of Microbiology and Biology Education</em>,
+              e00195–25.</li>
+            <li><strong>Sinha, T. (2026).</strong> Hallucinated AI artifacts for collaborative sensemaking &ndash; A
+              quasi-experimental pilot. In <em>34th International Conference on Computers in Education (ICCE)</em>.</li>
+            <li><strong>Sinha, T. (2026).</strong> Leveraging AI Flaws for Human Learning. In <em>International
+                Conference on Artificial Intelligence in Education (AIED)</em>, Springer, 411–426.</li>
+            <li><strong>Sinha, T., &amp; Kapur, M. (2021).</strong> When problem solving followed by instruction works:
+              Evidence for productive failure. <em>Review of Educational Research</em>, 91(5), 761–798.</li>
+            <li><strong>Sinha, T., &amp; Rajaram, K. (2026).</strong> Biased chatbot interaction as preparation for
+              collaborative learning. In <em>International Conference on Computer-Supported Collaborative Learning
+                (CSCL)</em>.</li>
+            <li><strong>Solyst, J., Yang, E., Xie, S., Hammer, J., Ogan, A., &amp; Eslami, M. (2024).</strong>
+              Children's overtrust and shifting perspectives of generative AI. <em>International Society of the Learning
+                Sciences (ISLS)</em>.</li>
+            <li><strong>Van Gog, T., &amp; Rummel, N. (2010).</strong> Example-based learning: Integrating cognitive and
+              social-cognitive research perspectives. <em>Educational Psychology Review</em>, 22(2), 155–174.</li>
+            <li><strong>Yang, Q., Steinfeld, A., Rosé, C., &amp; Zimmerman, J. (2020).</strong> Re-examining whether,
+              why, and how human-AI interaction is uniquely difficult to design. In <em>Proceedings of the 2020 CHI
+                Conference on Human Factors in Computing Systems</em>, 1–13.</li>
+          </ol>
+        </div>
+
+        <!-- BibTeX Box -->
+        <div class="bibtex-card">
+          <div class="bibtex-header">
+            <span>PROPOSAL CITATION (BIBTEX)</span>
+            <button class="copy-btn" id="copyBibBtn" type="button" aria-label="Copy BibTeX citation to clipboard">
+              Copy BibTeX
+            </button>
+          </div>
+          <pre class="bibtex-pre" id="bibtexCode">@inproceedings{sinha2027imperfectai,
+  title     = {Imperfect AI as New Learning Opportunities},
+  author    = {Sinha, Tanmay and Bai, Zhen and Ros{\'e}, Carolyn and Hosseini, Hadi},
+  booktitle = {Extended Abstracts of the 2027 CHI Conference on Human Factors in Computing Systems (CHI EA '27)},
+  year      = {2027},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  numpages  = {8}
+}</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Imperfect AI as New Learning Opportunities</h4>
+          <p style="margin: 0; line-height: 1.55;">
+            An interactive workshop at ACM CHI 2027 exploring the pedagogical potential of artificial intelligence
+            fallibility and collaborative sensemaking.
+          </p>
+          <p style="margin-top: 8px; font-size: 0.85rem; color: #64748b;">
+            ACM CHI 2027 Workshop Website
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h5>Quick Navigation</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overview">Overview &amp; Goals</a></li>
+            <li><a href="#cfp">Call for Participation</a></li>
+            <li><a href="#program">Program &amp; Activities</a></li>
+            <li><a href="#organizers">Organizers</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Resources</h5>
+          <ul>
+            <li><a href="https://chi2027.acm.org" target="_blank" rel="noopener noreferrer">ACM CHI 2027</a></li>
+            <li><a href="https://www.acm.org/publications/proceedings-template" target="_blank"
+                rel="noopener noreferrer">ACM Article Templates</a></li>
+            <li><a href="#references">Paper References</a></li>
+            <li><a href="mailto:tanmay.sinha@nie.edu.sg">Contact Co-Chairs</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2027 Workshop Organizers. All rights reserved. ACM is a registered trademark of the Association for
+          Computing Machinery.
+        </div>
+        <div>
+          <a href="#main">Back to top &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

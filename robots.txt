@@ -1,0 +1,3 @@
+# Disallow all web crawlers from indexing this site during workshop review
+User-agent: *
+Disallow: /
