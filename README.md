@@ -3,11 +3,11 @@
 
 Static website for the ACM CHI 2027 workshop proposal **"Imperfect AI as New Learning Opportunities"**.
 
-Features a responsive card-based layout, interactive case explorer, program schedule, and accessibility commitments.
+Features a responsive card-based layout, interactive case explorer, detailed program schedule, and organizer profiles.
 
 ### Structure
 - `index.html`: Main single-page application with responsive navigation landmarks.
-- `assets/css/styles.css`: Custom CSS design system themed with cerulean blue (`#0284c7`), vibrant berry pink (`#e15371`), and warm amber gold (`#f4b031`).
+- `assets/css/styles.css`: Custom CSS design system focused on academic blue tones with accessible contrast.
 - `assets/js/site.js`: Interactive navigation drawer, scrollspy, case gallery filter, and BibTeX copying.
 - `assets/images/banner.jpg`: Conceptual hero artwork.
 - `.nojekyll`: Bypasses Jekyll processing on GitHub Pages.
