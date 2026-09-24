@@ -87,40 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
     observedSections.forEach((section) => sectionObserver.observe(section));
   }
 
-  // 4. Interactive Imperfect AI Case Gallery Filter
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const caseCards = document.querySelectorAll('.case-card');
-
-  if (filterBtns.length > 0 && caseCards.length > 0) {
-    filterBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        // Update active button
-        filterBtns.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filter = btn.getAttribute('data-filter');
-
-        caseCards.forEach((card) => {
-          const category = card.getAttribute('data-category');
-          if (filter === 'all' || category === filter) {
-            card.style.display = 'flex';
-            setTimeout(() => {
-              card.style.opacity = '1';
-              card.style.transform = 'translateY(0)';
-            }, 10);
-          } else {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(10px)';
-            setTimeout(() => {
-              card.style.display = 'none';
-            }, 200);
-          }
-        });
-      });
-    });
-  }
-
-  // 5. 1-Click Copy for BibTeX
+  // 4. 1-Click Copy for BibTeX
   const copyBibBtn = document.getElementById('copyBibBtn');
   const bibtexCode = document.getElementById('bibtexCode');
 
@@ -130,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         await navigator.clipboard.writeText(bibtexCode.innerText);
         const originalText = copyBibBtn.innerText;
         copyBibBtn.innerText = 'Copied to Clipboard!';
-        copyBibBtn.style.background = '#0f766e';
+        copyBibBtn.style.background = '#0284c7';
         copyBibBtn.style.color = '#ffffff';
 
         setTimeout(() => {
